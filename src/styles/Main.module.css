@@ -1,21 +1,21 @@
 .container {
-  display: flex;
-  justify-content: space-between;
-  /* 좌우로 공간을 나눕니다 */
-  align-items: center;
-  padding: 20px;
+  @apply pt-5;
+  display: grid;
+  margin-left: 430px;
+  grid-template-columns: 1fr;
+  gap: 10px;
 }
 
-.profileBox {
-  flex: 30%;
+/* .profileBox {
+  flex: 0.2;
   margin-right: 20px;
-}
+  min-width: 30%;
+} */
 
-.redBox {
-  @apply h-full;
-  flex: 70%;
+.rightBox {
+  @apply mt-16;
+  /* flex: 0.7; */
   background-color: red;
-  height: 800px;
-  margin-top: 64px;
-  border-radius: 10px;
+  /* height: 800px; */
+  /* min-width: 70%; */
 }

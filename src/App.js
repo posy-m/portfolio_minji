@@ -17,7 +17,7 @@ function App() {
       {/* <LengthProfile /> */}
       <Main />
       <Routes>
-        <Route path='/' element={<Header />} />
+        {/* <Route path='/' element={<Header />} /> */}
       </Routes>
     </>
 

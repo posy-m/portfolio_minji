@@ -8,7 +8,7 @@ const Header = () => {
     <div className={styles.headerBox}>
       <div>김민지의 포트폴리오</div>
       <div className={styles.indexBox}>
-        <Link to='/header'>About Minji</Link>
+        <Link to='/about'>About Minji</Link>
         <Link to='/stack'>Stack</Link>
         <Link to='/portfolio'>Portfolio</Link>
         <Link to='/education'>Education</Link>

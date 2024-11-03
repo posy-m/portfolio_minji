@@ -12,3 +12,7 @@
 .indexBox {
   @apply flex gap-6 p-5;
 }
+
+.indexBox>a:hover {
+  color: #685FAE;
+}
