@@ -1,0 +1,15 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: #FAFAFA; */
+  background-color: #E0E4EB;
+  /* height: 100%;
+  overflow: auto; */
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: gray;
+}

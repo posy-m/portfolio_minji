@@ -1,0 +1,47 @@
+.profile {
+  @apply h-max w-96 rounded-2xl fixed top-20 left-4;
+  /* background-color: #E9E3D7; */
+  background-color: #E7E8EF;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07),
+    0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07),
+    0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07),
+    0 32px 64px rgba(0, 0, 0, 0.07);
+
+}
+
+.profileBox {
+  @apply flex items-center justify-center items-center flex-col p-6;
+}
+
+.infoBox {
+  @apply pl-5 flex flex-col gap-10
+}
+
+.info {
+  @apply flex flex-col gap-1;
+}
+
+.info>span:nth-child(1) {
+  color: #7661BE;
+  font-weight: 800;
+  font-size: small;
+}
+
+.info>span:nth-child(2) {
+  @apply font-bold text-lg;
+}
+
+.imgSize>a:nth-child(2) {
+  @apply ml-2
+}
+
+.imgSize>a>img {
+  width: 15%;
+}
+
+.profileBox>img {
+  border-radius: 10%;
+  width: 50%;
+}

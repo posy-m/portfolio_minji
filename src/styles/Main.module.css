@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  /* 좌우로 공간을 나눕니다 */
+  align-items: center;
+  padding: 20px;
+}
+
+.profileBox {
+  flex: 30%;
+  margin-right: 20px;
+}
+
+.redBox {
+  @apply h-full;
+  flex: 70%;
+  background-color: red;
+  height: 800px;
+  margin-top: 64px;
+  border-radius: 10px;
+}
