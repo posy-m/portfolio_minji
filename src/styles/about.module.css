@@ -1,3 +1,11 @@
 .aboutBox {
-  @apply h-36 bg-slate-500 items-end
+  @apply h-48 pt-20;
+  font-size: 2rem;
+  font-family: "Do Hyeon", sans-serif;
+  color: transparent;
+  background: linear-gradient(to right, #aa99c9, #554e8c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* padding: 16px; */
+  /* padding-top: 50px; */
 }

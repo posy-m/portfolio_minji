@@ -4,6 +4,7 @@
   margin-left: 430px;
   grid-template-columns: 1fr;
   gap: 10px;
+  padding: 20px
 }
 
 /* .profileBox {
@@ -15,7 +16,7 @@
 .rightBox {
   @apply mt-16;
   /* flex: 0.7; */
-  background-color: red;
+  /* background-color: #gray; */
   /* height: 800px; */
   /* min-width: 70%; */
 }

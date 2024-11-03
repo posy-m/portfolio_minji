@@ -39,6 +39,12 @@
 
 .imgSize>a>img {
   width: 15%;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+}
+
+.imgSize>a>img:hover {
+  transform: translateY(-5px);
 }
 
 .profileBox>img {
