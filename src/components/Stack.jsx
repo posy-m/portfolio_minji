@@ -3,7 +3,7 @@ import React from 'react'
 const Stack = () => {
   return (
     <div>
-      sfsdfssfsdfdsfsdfsdfsdfsfsf
+      <span>STACK</span>
     </div>
   )
 }

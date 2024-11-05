@@ -1,0 +1,29 @@
+.roundedBox {
+  @apply w-80 h-80 rounded-lg flex flex-col justify-center items-center;
+  border: 1px solid gray;
+}
+
+.roundedBox>span {
+  white-space: pre-line;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.roundedBox span:first-of-type {
+  @apply font-bold text-2xl;
+  color: #7661BE;
+  font-family: "Do Hyeon", sans-serif;
+}
+
+.roundedBox span:last-of-type {
+  color: gray;
+}
+
+
+.roundedBox>img {
+  @apply w-28 h-28 pb-5
+}
+
+.aspirationBox {
+  @apply flex gap-7 justify-center
+}
