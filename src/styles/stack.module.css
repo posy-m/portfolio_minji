@@ -1,0 +1,28 @@
+/* 7661BE */
+
+.stackBox {
+  @apply flex mt-16 flex-col justify-center items-center;
+}
+
+.stackBox>div:nth-child(1) {
+  @apply text-3xl;
+  color: #7661BE;
+  font-family: "Do Hyeon", sans-serif;
+}
+
+.stackWrap {
+  @apply flex flex-col mt-5
+}
+
+.stackStlye {
+  @apply gap-3 flex pt-3 justify-center;
+  /* display: grid;
+  grid-template-columns: repeat(5, 1fr); */
+}
+
+
+.stackStlye>span {
+  @apply w-28 h-10 flex justify-center items-center rounded-full font-bold;
+  background-color: gray;
+  color: white;
+}

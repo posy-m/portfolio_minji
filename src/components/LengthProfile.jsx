@@ -23,6 +23,10 @@ const LengthProfile = () => {
             <span>010.3928.0113</span>
           </div>
           <div className={styles.info}>
+            <span>Email</span>
+            <span>minji.posy@gmail.com</span>
+          </div>
+          <div className={styles.info}>
             <span>Address</span>
             <div className={styles.imgSize}>
               <a href="https://gangsangdogirl.tistory.com/">

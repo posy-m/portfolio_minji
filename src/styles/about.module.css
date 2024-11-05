@@ -1,5 +1,5 @@
 .aboutBox {
-  @apply h-48 pt-20;
+  @apply h-48 pt-20 pl-14;
   font-size: 2rem;
   font-family: "Do Hyeon", sans-serif;
   color: transparent;
