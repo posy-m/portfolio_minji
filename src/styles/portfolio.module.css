@@ -1,9 +1,103 @@
 .PortfolioBox {
-  @apply flex mt-16 flex-col justify-center items-center;
+  @apply flex mt-36 flex-col justify-center items-center w-full h-full gap-10;
 }
 
 .PortfolioBox>div:nth-child(1) {
-  @apply text-6xl;
+  @apply text-6xl pb-10;
   color: #7761be59;
   font-family: 'Freesentation-9Black';
+
+}
+
+.portfolioBord {
+  @apply pt-5 flex gap-5;
+  /* background-color: red; */
+}
+
+/* 앱 사이즈 */
+.portfolioInWrap {
+  @apply w-72 rounded-xl;
+  height: 550px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07),
+    0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07),
+    0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07),
+    0 32px 64px rgba(0, 0, 0, 0.07);
+}
+
+
+/* 웹 사이즈 */
+.portfolioInWebWrap {
+  @apply rounded-xl;
+  width: 500px;
+  height: 300px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07),
+    0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07),
+    0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07),
+    0 32px 64px rgba(0, 0, 0, 0.07);
+}
+
+
+.portfolioTextBox {
+  @apply h-64 rounded-xl flex gap-6 flex-col;
+  /* background-color: #E7E8EF; */
+  width: 500px;
+}
+
+.portfolioRightTextBox {
+  @apply h-64 rounded-xl flex gap-6 flex-col;
+  /* background-color: #E7E8EF; */
+  /* width: 500px; */
+  align-items: end;
+}
+
+.TextBoxOrigin>div:nth-child(1) {
+  font-family: "Do Hyeon", sans-serif;
+  @apply font-bold text-3xl;
+  color: #7661BE;
+}
+
+.TextBoxOrigin>div:nth-child(2) {
+  color: gray;
+  white-space: pre-line;
+}
+
+.viewMoreBtn>button {
+  background-color: #E7E8EF;
+  border: none;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 600;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07),
+    0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07),
+    0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07),
+    0 32px 64px rgba(0, 0, 0, 0.07);
+}
+
+
+
+/* 첫번째 앱 부분 */
+.portfolioBordLeft {
+  @apply pl-16;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+
+}
+
+.portfolioBordSecond {
+  @apply flex w-full pr-8;
+  justify-content: end;
+}
+
+
+.portfolioBordSecond>:first-child {
+  text-align: right;
 }
