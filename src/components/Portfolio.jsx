@@ -10,7 +10,7 @@ const Portfolio = () => {
   return (
     <Element name='portfolio'>
       <div className={styles.PortfolioBox}>
-        <div>Portfolio</div>
+        <div>PORTFOLIO</div>
       </div>
     </Element>
   )

@@ -5,10 +5,13 @@
   @apply flex mt-16 flex-col justify-center items-center;
 }
 
+
+
 .stackBox>div:nth-child(1) {
-  @apply text-3xl;
-  color: #7661BE;
-  font-family: "Do Hyeon", sans-serif;
+  @apply text-6xl;
+  /* color: #7661BE; */
+  color: #7761be59;
+  font-family: 'Freesentation-9Black';
 }
 
 .stackWrap {
