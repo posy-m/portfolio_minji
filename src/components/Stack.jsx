@@ -30,9 +30,9 @@ const Stack = () => {
     <Element name='stack'>
       <div className={styles.stackBox}>
         <div>STACK</div>
-        <div className={styles.stackLayout}>
-          <StackShape />
-        </div>
+        {/* <div className={styles.stackLayout}> */}
+        <StackShape />
+        {/* </div> */}
       </div >
     </Element>
   )

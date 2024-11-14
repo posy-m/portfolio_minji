@@ -1,21 +1,20 @@
-import React from 'react'
-import styles from '../styles/portfolio.module.css'
+import React, { useState } from 'react'
+import styles from '../../styles/portfolio.module.css'
 import { Button, Element } from 'react-scroll';
-import mountin from '../images/app.png'
-import donutshop from '../images/donutshop.png'
-import wine from '../images/wine.png'
+import mountin from '../../images/app.png'
+import donutshop from '../../images/donutshop.png'
+import wine from '../../images/wine.png'
 
-const Portfolio = () => {
+const PortfolioFirst = () => {
 
 
   const PortfolioSquareBox = ({ src, alt, type }) => {
     const imageStyle = type === 'web' ? styles.portfolioInWebWrap : styles.portfolioInWrap;
     return (
-      // <div className={styles.portfolioInWrap}>
       <img src={src} alt={alt} className={imageStyle} />
-      // </div>
     )
   }
+
   const TextBox = ({ title, content, textOrigin }) => {
     const textStyle = textOrigin === 'left' ? styles.portfolioTextBox : styles.portfolioRightTextBox
     return (
@@ -50,4 +49,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export default PortfolioFirst

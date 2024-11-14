@@ -1,7 +1,16 @@
+.aboutBox>div:nth-child(1) {
+  @apply text-6xl pb-8;
+  /* color: #7661BE; */
+  color: #7761be59;
+  font-family: 'Freesentation-9Black';
+}
+
 .aboutBox {
-  @apply h-48 pt-20 pl-14;
+  @apply h-48 pt-16 pl-14 pb-12;
   font-size: 2rem;
   font-family: "Do Hyeon", sans-serif;
+  /* font-family: 'Pretendard-Regular';
+  font-weight: 900; */
   color: transparent;
   background: linear-gradient(to right, #aa99c9, #554e8c);
   -webkit-background-clip: text;

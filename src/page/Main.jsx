@@ -4,7 +4,9 @@ import LengthProfile from '../components/LengthProfile'
 import About from '../components/About'
 import { Route, Routes } from 'react-router-dom'
 import Stack from '../components/Stack'
-import Portfolio from '../components/Portfolio'
+import PortfolioFrist from '../components/portfolio/PortfolioFrist'
+import Portfolio from '../components/portfolio/Portfolio'
+
 
 const Main = () => {
 
@@ -18,6 +20,7 @@ const Main = () => {
           <About />
           <Stack />
           <Portfolio />
+          {/* <PortfolioFrist /> */}
         </div>
       </div>
     </>

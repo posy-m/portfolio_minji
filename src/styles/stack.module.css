@@ -15,10 +15,10 @@
 }
 
 .stackWrap {
-  @apply flex flex-col mt-5
+  @apply flex flex-col mt-5 w-full
 }
 
-.stackLayout{
+.stackLayout {
   @apply flex w-full pl-24
 }
 
