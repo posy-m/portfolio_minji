@@ -1,0 +1,29 @@
+.stackWrap {
+  @apply flex flex-col gap-3 mt-10;
+}
+
+.stackBox {
+  @apply flex gap-3;
+  transition: all 0.5s ease;
+}
+
+.stackBox:hover {
+  transform: scale(1.1) ;
+}
+
+.stackBox > span:nth-child(1){
+  @apply w-28 h-10 rounded-lg flex items-center justify-center;
+  color: white;
+}
+
+.stackBox > span:nth-child(2) {
+@apply flex items-center pl-4;
+color: rgb(58, 58, 58);
+text-shadow: 3px 4px 5px #aa99c9;
+}
+
+.stackBox>span {
+  /* @apply flex ; */
+  /* background-color: gray; */
+  font-family: "Do Hyeon", sans-serif;
+}

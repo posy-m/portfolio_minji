@@ -1,0 +1,9 @@
+.PortfolioBox {
+  @apply flex mt-16 flex-col justify-center items-center;
+}
+
+.PortfolioBox>div:nth-child(1) {
+  @apply text-3xl;
+  color: #7661BE;
+  font-family: "Do Hyeon", sans-serif;
+}

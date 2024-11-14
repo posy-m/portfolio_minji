@@ -1,6 +1,7 @@
 /* 7661BE */
 
 .stackBox {
+  /* @apply flex mt-16 flex-col justify-center items-center; */
   @apply flex mt-16 flex-col justify-center items-center;
 }
 
@@ -12,6 +13,10 @@
 
 .stackWrap {
   @apply flex flex-col mt-5
+}
+
+.stackLayout{
+  @apply flex w-full pl-24
 }
 
 .stackStlye {

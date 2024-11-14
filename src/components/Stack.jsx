@@ -1,12 +1,13 @@
 import React from 'react'
 import styles from '../styles/stack.module.css'
+import { Element } from 'react-scroll';
+import StackShape from './StackShape';
+
 
 const Stack = () => {
 
-
-  return (
-    <div className={styles.stackBox}>
-      <div>STACK</div>
+  const StackFirstVer = () => {
+    return (
       <div className={styles.stackWrap}>
         <div className={styles.stackStlye}>
           <span style={{ backgroundColor: 'rgb(192, 51, 29)' }}>HTML5</span>
@@ -22,7 +23,18 @@ const Stack = () => {
           <span style={{ backgroundColor: 'rgb(9, 9, 9)' }}>Next.js</span>
         </div>
       </div>
-    </div >
+
+    )
+  }
+  return (
+    <Element name='stack'>
+      <div className={styles.stackBox}>
+        <div>STACK</div>
+        <div className={styles.stackLayout}>
+          <StackShape />
+        </div>
+      </div >
+    </Element>
   )
 }
 

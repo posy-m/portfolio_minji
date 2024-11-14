@@ -4,6 +4,7 @@ import LengthProfile from '../components/LengthProfile'
 import About from '../components/About'
 import { Route, Routes } from 'react-router-dom'
 import Stack from '../components/Stack'
+import Portfolio from '../components/Portfolio'
 
 const Main = () => {
 
@@ -16,6 +17,7 @@ const Main = () => {
         <div className={styles.rightBox}>
           <About />
           <Stack />
+          <Portfolio />
         </div>
       </div>
     </>
