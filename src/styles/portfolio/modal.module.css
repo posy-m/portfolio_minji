@@ -14,20 +14,21 @@
 .modalContent {
   @apply flex flex-col;
   background: white;
-  padding: 20px;
+  padding: 30px;
   border-radius: 8px;
-  max-width: 900px;
+  max-width: 1200px;
+  /* height: ; */
   width: 90%;
   position: relative;
   /* text-align: center; */
 }
 
 .modalContent>h2 {
-  @apply pl-16
+  @apply pl-10
 }
 
 .contentWrap {
-  @apply flex gap-2 pl-10;
+  @apply flex gap-8 pl-10;
 }
 
 .closeButton {
@@ -40,15 +41,26 @@
   cursor: pointer;
 }
 
+
+/* 왼쪽 BOX */
+.modalLeftBox>p {
+  /* font-size: 15px; */
+}
+
 .modalImage {
   /* width: 100%;
   height: auto; */
-  width: 180px;
-  height: 330px;
+  width: 230px;
+  height: 430px;
   margin-top: 10px;
 }
 
-/* 왼쪽 BOX */
+.WebImage {
+  padding-top: 90px;
+  height: 230px;
+  width: 430px;
+}
+
 .modalLeftBox>a>img {
   width: 45px;
   height: 45px;
@@ -61,10 +73,16 @@
 
 /* 오른쪽 BOX */
 
-/* .modalRightBox>p {
-  white-space: pre-line;
-} */
-
-.modalRightBox>p:nth-child(1) {
-  font-weight: 800;
+.introWrap>p:nth-child(1) {
+  font-weight: 900;
 }
+
+.introWrap>p:nth-child(2) {
+  font-family: 'Pretendard-Regular';
+}
+
+/* .modalRightBox>p:nth-child(even) {}
+
+.modalRightBox>p:nth-child(odd) {
+  font-weight: 900;
+} */

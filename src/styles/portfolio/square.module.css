@@ -18,10 +18,10 @@
 
 .squareTextBox {
   @apply flex flex-col;
-  font-family: 'Pretendard-Regular';
 }
 
 .squareTextBox>span:nth-child(1) {
+  font-family: "Do Hyeon", sans-serif;
   @apply text-2xl;
   font-weight: 900;
   color: #7661BE;
@@ -38,11 +38,10 @@
 }
 
 .webSize {
-  @apply w-72 h-52 pt-32 pb-20
+  @apply w-72 pt-36;
 }
 
-
 .phoneSize {
-  @apply w-40 h-72;
+  @apply w-36 h-64;
   margin-top: 40px;
 }
