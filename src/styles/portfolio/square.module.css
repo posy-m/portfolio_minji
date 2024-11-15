@@ -1,47 +1,48 @@
-.squareBox{
+.squareBox {
   @apply w-[300px] rounded-3xl p-5 flex flex-col items-center justify-center;
-  height:450px;
+  height: 450px;
   cursor: pointer;
   box-shadow:
-  0 1px 2px rgba(0, 0, 0, 0.07),
-  0 2px 4px rgba(0, 0, 0, 0.07),
-  0 4px 8px rgba(0, 0, 0, 0.07),
-  0 8px 16px rgba(0, 0, 0, 0.07),
-  0 16px 32px rgba(0, 0, 0, 0.07),
-  0 32px 64px rgba(0, 0, 0, 0.07);
+    0 1px 2px rgba(0, 0, 0, 0.07),
+    0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07),
+    0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07),
+    0 32px 64px rgba(0, 0, 0, 0.07);
   transition: all 0.5s ease;
 }
 
 .squareBox:hover {
-  transform: scale(1.1) ;
+  transform: scale(1.1);
 }
 
-.squareTextBox{
-  @apply flex flex-col ;
+.squareTextBox {
+  @apply flex flex-col;
   font-family: 'Pretendard-Regular';
 }
 
-.squareTextBox >span:nth-child(1) {
+.squareTextBox>span:nth-child(1) {
   @apply text-2xl;
   font-weight: 900;
   color: #7661BE;
 }
 
-.squareTextBox >span:nth-child(2) {
+.squareTextBox>span:nth-child(2) {
   @apply pt-2;
   font-weight: 800;
   color: rgb(41, 41, 41);
 }
-.squareTextBox >span:nth-child(3) {
+
+.squareTextBox>span:nth-child(3) {
   color: gray;
 }
 
-.webSize{
-  @apply w-72 h-52 pt-20 pb-20
+.webSize {
+  @apply w-72 h-52 pt-32 pb-20
 }
 
 
-.phoneSize{
-@apply w-40 h-72;
-  margin-top: 40px; 
+.phoneSize {
+  @apply w-40 h-72;
+  margin-top: 40px;
 }
