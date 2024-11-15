@@ -24,7 +24,13 @@
 }
 
 .modalContent>h2 {
-  @apply pl-10
+  @apply pl-10;
+}
+
+.modalBox {
+  @apply flex pt-2;
+  justify-content: space-between;
+  
 }
 
 .contentWrap {
@@ -61,14 +67,20 @@
   width: 430px;
 }
 
-.modalLeftBox>a>img {
+
+.modalIcon>a>img {
   width: 45px;
   height: 45px;
   transition: all 0.25s ease-out;
 }
 
-.modalLeftBox>a>img:hover {
+.modalIcon>a>img:hover {
   transform: translateY(-5px);
+}
+
+.modalLine {
+  line-height: 1px;
+  border: 1px solid gray;
 }
 
 /* 오른쪽 BOX */

@@ -11,15 +11,9 @@ function Modal({ isOpen, onClose, content }) {
     <div className={styles.modalOverlay} onClick={onClose}>
       <div className={styles.modalContent} onClick={(e) => e.stopPropagation()}>
         <button className={styles.closeButton} onClick={onClose}>X</button>
-        <h2>{content.title}</h2>
-        <div className={styles.contentWrap}>
-          <div className={styles.modalLeftBox}>
-            {content.type === "web" || content.srcWeb ? (
-              <img src={content.srcWeb} alt={content.altWeb} className={styles.WebImage} />
-            ) : (
-              <img src={content.src} alt={content.alt} className={styles.modalImage} />
-            )}
-            <p>{content.personnel}</p>
+        <div className={styles.modalBox}>
+          <h2>{content.title}</h2>
+          <div className={styles.modalIcon}>
             <a href={content.linkName} target="_blank" rel="noopener noreferrer">
               <img src={github} alt={content.alt} />
             </a>
@@ -30,6 +24,17 @@ function Modal({ isOpen, onClose, content }) {
               <a href={content.linkNameHomepage} target="_blank" rel="noopener noreferrer">
                 <img src={message} alt={content.alt} />
               </a>
+            )}
+          </div>
+
+        </div>
+        <p className={styles.modalLine}></p>
+        <div className={styles.contentWrap}>
+          <div className={styles.modalLeftBox}>
+            {content.type === "web" || content.srcWeb ? (
+              <img src={content.srcWeb} alt={content.altWeb} className={styles.WebImage} />
+            ) : (
+              <img src={content.src} alt={content.alt} className={styles.modalImage} />
             )}
           </div>
           <div className={styles.modalRightBox}>
