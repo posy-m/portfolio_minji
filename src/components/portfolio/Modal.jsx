@@ -28,7 +28,7 @@ function Modal({ isOpen, onClose, content }) {
           </div>
 
         </div>
-        <p className={styles.modalLine}></p>
+        <div className={styles.modalLine}></div>
         <div className={styles.contentWrap}>
           <div className={styles.modalLeftBox}>
             {content.type === "web" || content.srcWeb ? (
@@ -56,7 +56,12 @@ function Modal({ isOpen, onClose, content }) {
             </div>
             <div className={styles.introWrap}>
               <p>{content.functionTitle}</p>
-              <p dangerouslySetInnerHTML={{ __html: content.functionName }} />
+              {/* <p dangerouslySetInnerHTML={{ __html: content.functionName }} /> */}
+              <ul>
+                {content.functionName.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
             </div>
             <div className={styles.introWrap}>
               <p>{content.siteTitle}</p>
