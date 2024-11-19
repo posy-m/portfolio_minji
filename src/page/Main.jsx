@@ -6,6 +6,7 @@ import { Route, Routes } from 'react-router-dom'
 import Stack from '../components/Stack'
 import PortfolioFrist from '../components/portfolio/PortfolioFrist'
 import Portfolio from '../components/portfolio/Portfolio'
+import Education from '../components/\bEducation'
 
 
 const Main = () => {
@@ -20,6 +21,7 @@ const Main = () => {
           <About />
           <Stack />
           <Portfolio />
+          <Education />
           {/* <PortfolioFrist /> */}
         </div>
       </div>

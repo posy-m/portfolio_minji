@@ -1,0 +1,43 @@
+.educationBox{
+  @apply  mt-36  w-full h-full gap-10 pl-12;
+}
+
+.educationBox>div:nth-child(1) {
+  @apply text-6xl pb-10;
+  color: #7761be59;
+  font-family: 'Freesentation-9Black';
+
+}
+
+.education > div:nth-child(1){
+  @apply text-3xl pb-5;
+}
+
+.educationWrap{
+  @apply  p-6 grid;
+  border-radius: 15px;
+  grid-template-columns: 200px 2fr;
+  /* width: 900px;
+  box-shadow:
+  0 1px 2px rgba(0, 0, 0, 0.07),
+  0 2px 4px rgba(0, 0, 0, 0.07),
+  0 4px 8px rgba(0, 0, 0, 0.07),
+  0 8px 16px rgba(0, 0, 0, 0.07),
+  0 16px 32px rgba(0, 0, 0, 0.07),
+  0 32px 64px rgba(0, 0, 0, 0.07); */
+}
+
+.educationContent{
+  @apply flex flex-col gap-2;
+}
+
+.educationContent >span:nth-child(1){
+  font-weight: 800;
+  font-size: large;
+}
+
+.educationWrap ul {
+  /* list-style-type: disc; */
+  margin: 0;
+  padding-left: 20px;
+}

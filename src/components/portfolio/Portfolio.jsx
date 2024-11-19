@@ -16,9 +16,8 @@ function Portfolio() {
   const [modalContent, setModalContent] = useState(null);
 
   const onpenModal = (content) => {
-    console.log(content, "왜이럴까");
-    console.log(content.type, "ㅇㄹㄴㄹㄴㅇㄹ");
-
+    // console.log(content, "왜이럴까");
+    // console.log(content.type, "ㅇㄹㄴㄹㄴㅇㄹ");
     setModalContent(content);
     setIsModalOpen(true);
   }

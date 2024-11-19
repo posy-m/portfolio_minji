@@ -5,7 +5,7 @@ import notion from '../../images/notion.png'
 import message from '../../images/message.png'
 
 function Modal({ isOpen, onClose, content }) {
-  if (!isOpen) return null; // 모달이 열려있지 않으면 아무것도 렌더링하지 않음
+  if (!isOpen) return null;
 
   return (
     <div className={styles.modalOverlay} onClick={onClose}>
