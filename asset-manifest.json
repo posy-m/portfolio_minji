@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio_minji/static/css/main.1b35228e.css",
-    "main.js": "/portfolio_minji/static/js/main.b187a9d3.js",
-    "static/media/unmountin.gif": "/portfolio_minji/static/media/unmountin.f36bcaa937d44be939d7.gif",
-    "static/media/donut.gif": "/portfolio_minji/static/media/donut.5d67c2d73ee460a3cb0c.gif",
-    "static/media/insideout.gif": "/portfolio_minji/static/media/insideout.8cf707df8a17fdfc09f9.gif",
-    "static/media/wine.png": "/portfolio_minji/static/media/wine.8b8f221ae5d276172096.png",
-    "static/media/picture.jpg": "/portfolio_minji/static/media/picture.82f0fa62307b563b0f83.jpg",
-    "static/media/app.png": "/portfolio_minji/static/media/app.3199471d6952943e4d42.png",
-    "static/media/donutshop.png": "/portfolio_minji/static/media/donutshop.1784b7c125a12f042fed.png",
-    "static/media/donut.png": "/portfolio_minji/static/media/donut.36c034e5f7c2c7e70949.png",
-    "static/media/mountin.png": "/portfolio_minji/static/media/mountin.9a126d53addd99d92e65.png",
-    "static/media/whisky.png": "/portfolio_minji/static/media/whisky.a167f89d904f1ca29df5.png",
-    "static/media/mimo3.png": "/portfolio_minji/static/media/mimo3.23b36cce82feb525afb9.png",
-    "static/media/mimo2.png": "/portfolio_minji/static/media/mimo2.2f11bf4c9669af36a20c.png",
-    "static/media/mimo1.png": "/portfolio_minji/static/media/mimo1.edabf6be688d0e611e03.png",
-    "static/media/github2.png": "/portfolio_minji/static/media/github2.dad283c439f90168d108.png",
-    "static/media/message.png": "/portfolio_minji/static/media/message.f38bbae276502f3c8122.png",
-    "static/media/notion.png": "/portfolio_minji/static/media/notion.a962bf1b160f92390322.png",
-    "index.html": "/portfolio_minji/index.html",
-    "main.1b35228e.css.map": "/portfolio_minji/static/css/main.1b35228e.css.map",
-    "main.b187a9d3.js.map": "/portfolio_minji/static/js/main.b187a9d3.js.map"
+    "main.css": "/portfolio_minji.github.io/static/css/main.bbed09ea.css",
+    "main.js": "/portfolio_minji.github.io/static/js/main.3aa17d58.js",
+    "static/media/unmountin.gif": "/portfolio_minji.github.io/static/media/unmountin.f36bcaa937d44be939d7.gif",
+    "static/media/donut.gif": "/portfolio_minji.github.io/static/media/donut.5d67c2d73ee460a3cb0c.gif",
+    "static/media/insideout.gif": "/portfolio_minji.github.io/static/media/insideout.8cf707df8a17fdfc09f9.gif",
+    "static/media/wine.png": "/portfolio_minji.github.io/static/media/wine.8b8f221ae5d276172096.png",
+    "static/media/picture.jpg": "/portfolio_minji.github.io/static/media/picture.82f0fa62307b563b0f83.jpg",
+    "static/media/app.png": "/portfolio_minji.github.io/static/media/app.3199471d6952943e4d42.png",
+    "static/media/donutshop.png": "/portfolio_minji.github.io/static/media/donutshop.1784b7c125a12f042fed.png",
+    "static/media/donut.png": "/portfolio_minji.github.io/static/media/donut.36c034e5f7c2c7e70949.png",
+    "static/media/mountin.png": "/portfolio_minji.github.io/static/media/mountin.9a126d53addd99d92e65.png",
+    "static/media/whisky.png": "/portfolio_minji.github.io/static/media/whisky.a167f89d904f1ca29df5.png",
+    "static/media/mimo3.png": "/portfolio_minji.github.io/static/media/mimo3.23b36cce82feb525afb9.png",
+    "static/media/mimo2.png": "/portfolio_minji.github.io/static/media/mimo2.2f11bf4c9669af36a20c.png",
+    "static/media/mimo1.png": "/portfolio_minji.github.io/static/media/mimo1.edabf6be688d0e611e03.png",
+    "static/media/github2.png": "/portfolio_minji.github.io/static/media/github2.dad283c439f90168d108.png",
+    "static/media/message.png": "/portfolio_minji.github.io/static/media/message.f38bbae276502f3c8122.png",
+    "static/media/notion.png": "/portfolio_minji.github.io/static/media/notion.a962bf1b160f92390322.png",
+    "index.html": "/portfolio_minji.github.io/index.html",
+    "main.bbed09ea.css.map": "/portfolio_minji.github.io/static/css/main.bbed09ea.css.map",
+    "main.3aa17d58.js.map": "/portfolio_minji.github.io/static/js/main.3aa17d58.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b35228e.css",
-    "static/js/main.b187a9d3.js"
+    "static/css/main.bbed09ea.css",
+    "static/js/main.3aa17d58.js"
   ]
 }
