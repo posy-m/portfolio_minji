@@ -1,0 +1,9 @@
+.endBox{
+  @apply h-80 flex justify-center items-center text-3xl;
+  font-family: "Do Hyeon", sans-serif;
+  text-align: center;
+  color: #7661BE;
+  background: linear-gradient(to bottom, #E0E4EB, #cac7e386);
+
+  
+}
