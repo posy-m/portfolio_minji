@@ -7,6 +7,7 @@ import Stack from '../components/Stack'
 import PortfolioFrist from '../components/portfolio/PortfolioFrist'
 import Portfolio from '../components/portfolio/Portfolio'
 import Education from '../components/\bEducation'
+import End from '../components/End'
 
 
 const Main = () => {
@@ -22,6 +23,7 @@ const Main = () => {
           <Stack />
           <Portfolio />
           <Education />
+          <End />
           {/* <PortfolioFrist /> */}
         </div>
       </div>

@@ -10,7 +10,7 @@
 }
 
 .education > div:nth-child(1){
-  @apply text-3xl pb-5;
+  @apply text-3xl pb-5 pl-4;
 }
 
 .educationWrap{
@@ -32,6 +32,7 @@
 }
 
 .educationContent >span:nth-child(1){
+  /* @apply text-2xl:; */
   font-weight: 800;
   font-size: large;
 }

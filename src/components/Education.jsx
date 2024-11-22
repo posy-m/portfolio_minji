@@ -13,7 +13,7 @@ const Education = () => {
             <span>2024.03-2024.10</span>
             <div className={styles.educationContent}>
               <span>DevOps 풀스택 개발자 부트캠프</span>
-              <span>부트캠프를 하며 여러가지~~ㄴㅇㄹㅁㄴㅇㅁㄴㅇㅁㄴㅇsdfsdfdsfsdㄴㅇ</span>
+              <span>부트 캠프에서 교육을 받으며 개발자들의 협업을 알게 되었고</span>
               <ul>
                 <li>HTML/CSS 기초 웹 페이지 작성</li>
                 <li>웹 프로그래밍 기초</li>
