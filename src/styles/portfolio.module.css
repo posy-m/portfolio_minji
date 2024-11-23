@@ -1,16 +1,21 @@
+/* 지금 안하는 첫번째 포트폴리오 스타일! */
+/* 지금 사용안함 */
+
+
 .PortfolioBox {
-  @apply flex mt-36 flex-col justify-center items-center w-full h-full gap-10;
+  @apply flex flex-col justify-center items-center w-full h-full gap-10;
 }
 
 .PortfolioBox>div:nth-child(1) {
-  @apply text-6xl pb-10;
+  @apply text-6xl;
   color: #7761be59;
   font-family: 'Freesentation-9Black';
 
 }
 
 .portfolioBord {
-  @apply pt-5 flex gap-5;
+  /* @apply  flex ; */
+  @apply  flex gap-5;
   /* background-color: red; */
 }
 

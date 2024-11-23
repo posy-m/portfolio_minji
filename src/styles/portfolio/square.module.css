@@ -1,5 +1,5 @@
 .squareBox {
-  @apply w-[300px] rounded-3xl p-5 flex flex-col items-center justify-center;
+  @apply w-[16rem] rounded-3xl p-5 flex flex-col items-center justify-center;
   height: 450px;
   cursor: pointer;
   box-shadow:
@@ -22,7 +22,7 @@
 
 .squareTextBox>span:nth-child(1) {
   font-family: "Do Hyeon", sans-serif;
-  @apply text-2xl;
+  @apply text-lg;
   font-weight: 900;
   color: #7661BE;
 }
@@ -35,6 +35,7 @@
 
 .squareTextBox>span:nth-child(3) {
   color: gray;
+  @apply text-sm
 }
 
 .webSize {

@@ -1,5 +1,7 @@
 .profile {
-  @apply h-max w-96 rounded-2xl fixed top-20 left-8;
+  @apply h-max w-80 rounded-2xl;
+  margin-top: 25%;
+  margin-left: 10%;
   /* background-color: #E9E3D7; */
   background-color: #E7E8EF;
   box-shadow:

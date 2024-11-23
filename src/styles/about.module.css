@@ -1,12 +1,16 @@
+.aboutWrap{
+  @apply flex flex-col gap-7
+}
+
 .aboutBox>div:nth-child(1) {
-  @apply text-6xl pb-8;
+  @apply text-6xl pb-6;
   /* color: #7661BE; */
   color: #7761be59;
   font-family: 'Freesentation-9Black';
+  /* font-family: 'effra-cc', sans-serif; */
 }
 
 .aboutBox {
-  @apply h-48 pt-16 pl-14 pb-12;
   font-size: 2rem;
   font-family: "Do Hyeon", sans-serif;
   /* font-family: 'Pretendard-Regular';
@@ -15,6 +19,7 @@
   background: linear-gradient(to right, #aa99c9, #554e8c);
   -webkit-background-clip: text;
   background-clip: text;
+  text-align: center;
   /* padding: 16px; */
   /* padding-top: 50px; */
 }

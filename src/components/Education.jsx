@@ -8,7 +8,7 @@ const Education = () => {
       <div className={styles.educationBox}>
         <div>EDUCATION</div>
         <div className={styles.education}>
-          <div>교육</div>
+          <div></div>
           <div className={styles.educationWrap}>
             <span>2024.03-2024.10</span>
             <div className={styles.educationContent}>

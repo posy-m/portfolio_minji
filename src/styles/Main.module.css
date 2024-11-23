@@ -1,20 +1,23 @@
+
+
 .container {
-  @apply pt-5;
-  display: grid;
-  margin-left: 430px;
-  grid-template-columns: 1fr;
-  gap: 10px;
-  padding: 20px
+  display: flex;
+  /* margin: 2% 0 0 2%; */
 }
 
-/* .profileBox {
-  flex: 0.2;
+.profileBox {
+  flex: 0.5;
   margin-right: 20px;
-  min-width: 30%;
-} */
+}
 
 .rightBox {
-  @apply mt-16;
+  flex: 2;
+  height: 100vh;
+  overflow-y: auto;
+  display:flex;
+  flex-direction: column;
+  gap: 50px;
+  /* @apply mt-16; */
   /* flex: 0.7; */
   /* background-color: #gray; */
   /* height: 800px; */

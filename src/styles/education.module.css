@@ -1,22 +1,23 @@
 .educationBox {
-  @apply mt-36 gap-10 pl-12;
+  @apply  gap-10 pl-12 pb-12;
 }
 
 .educationBox>div:nth-child(1) {
-  @apply text-6xl pb-10;
+  @apply text-6xl pb-7 flex items-center justify-center;
   color: #7761be59;
   font-family: 'Freesentation-9Black';
 
 }
 
 .education>div:nth-child(1) {
-  @apply text-3xl pb-5 pl-4;
+  @apply text-3xl ;
 }
 
 .educationWrap {
-  @apply p-6 grid;
+  padding-left: 4%
+  /* @apply p-6 grid;
   border-radius: 15px;
-  grid-template-columns: 200px 2fr;
+  grid-template-columns: 150px 2fr; */
   /* width: 900px;
   box-shadow:
   0 1px 2px rgba(0, 0, 0, 0.07),

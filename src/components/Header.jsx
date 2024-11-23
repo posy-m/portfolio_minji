@@ -8,12 +8,12 @@ import { Link, Element } from 'react-scroll';
 const Header = () => {
   return (
     <div className={styles.headerBox}>
-      <div>김민지의 포트폴리오</div>
+      <div></div>
       <div className={styles.indexBox}>
-        <Link to='about' smooth={true} duration={500}>About</Link>
-        <Link to='stack' smooth={true} duration={500}>Stack</Link>
-        <Link to='portfolio' smooth={true} duration={500}>Portfolio</Link>
-        <Link to='education' smooth={true} duration={500}>Education</Link>
+        <Link to='about' smooth={true} duration={500} containerId='rightBox'>About</Link>
+        <Link to='stack' smooth={true} duration={500} containerId='rightBox'>Stack</Link>
+        <Link to='portfolio' smooth={true} duration={500} containerId='rightBox'>Portfolio</Link>
+        <Link to='education' smooth={true} duration={500} containerId='rightBox'>Education</Link>
       </div>
     </div>
   );
