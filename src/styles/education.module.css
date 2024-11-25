@@ -30,6 +30,12 @@
   font-family: 'Pretendard-Regular';
 }
 
+.educationWrap > span:nth-child(1){
+  /* background-color: #7661BE; */
+  border-radius: 5px;
+  /* color: white; */
+}
+
 .educationContent {
   @apply flex flex-col gap-2;
 }
@@ -44,4 +50,8 @@
   /* list-style-type: disc; */
   margin: 0;
   padding-left: 20px;
+}
+
+.educationWrap ul li{
+  margin-bottom: 5px;
 }
