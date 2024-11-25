@@ -14,7 +14,7 @@
 }
 
 .educationWrap {
-  @apply mt-9;
+  @apply mt-10;
   padding-left: 4%;
   /* @apply p-6 grid;
   border-radius: 15px; 
@@ -32,7 +32,8 @@
 
 .educationWrap > span:nth-child(1){
   /* background-color: #7661BE; */
-  border-radius: 5px;
+  color: gray;
+  margin-bottom: 5px;
   /* color: white; */
 }
 
