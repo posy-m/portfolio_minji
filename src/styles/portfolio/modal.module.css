@@ -95,11 +95,15 @@
 }
 
 .introWrap>p:nth-child(1) {
-  font-weight: 900;
+  /* font-family: 'Pretendard-Regular'; */
+  font-weight: 700;
+
 }
 
 .introWrap>p:nth-child(2) {
+  @apply text-sm;
   font-family: 'Pretendard-Regular';
+  
 }
 
 .introWrap ul {
@@ -109,6 +113,7 @@
 }
 
 .introWrap li {
+  @apply text-sm;
   margin-bottom: 3px;
 }
 

@@ -39,7 +39,9 @@
 
 .squareTextBox>span:nth-child(3) {
   color: gray;
-  @apply text-sm
+  /* @apply text-xs; */
+  font-size: small;
+  font-family: 'Pretendard-Regular';
 }
 
 .webSize {

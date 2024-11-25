@@ -6,8 +6,8 @@
   @apply text-6xl;
   color: #7761be59;
   font-family: 'Freesentation-9Black';
-
 }
+
 
 .squareWrap {
   @apply flex gap-5 justify-center;

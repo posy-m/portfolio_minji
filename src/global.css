@@ -1,3 +1,5 @@
+
+
 html,
 body {
   margin: 0;
@@ -5,6 +7,7 @@ body {
   /* background-color: #FAFAFA; */
   background-color: #E0E4EB;
   overflow: hidden;
+  font-family: 'Pretendard', sans-serif;
 }
 
 a {
@@ -39,6 +42,10 @@ a {
   font-weight: 400;
   font-style: normal;
 }
+
+
+
+
 
 
 
