@@ -2,7 +2,7 @@
 
 .stackBox {
   /* @apply flex mt-16 flex-col justify-center items-center; */
-  @apply flex flex-col justify-center items-center;
+  @apply flex flex-col justify-center items-center mt-12;
 }
 
 

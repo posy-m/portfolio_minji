@@ -1,5 +1,5 @@
 .squareBox {
-  @apply w-[16rem] rounded-3xl p-5 flex flex-col items-center justify-center;
+  @apply w-[17rem] rounded-2xl p-5 flex flex-col items-center justify-center;
   height: 450px;
   cursor: pointer;
   box-shadow:
@@ -18,6 +18,10 @@
 
 .squareTextBox {
   @apply flex flex-col;
+}
+
+.squareTextBox>span {
+  font-family: 'Pretendard-Regular';
 }
 
 .squareTextBox>span:nth-child(1) {

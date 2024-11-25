@@ -16,30 +16,15 @@ a {
 /* index.css 또는 글로벌 CSS 파일 */
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Do+Hyeon&family=Noto+Serif+Khmer:wght@100..900&display=swap');
 
+
+/* 중간 폰트 */
 .do-hyeon-regular {
   font-family: "Do Hyeon", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.cinzel-decorative-regular {
-  font-family: "Cinzel Decorative", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.cinzel-decorative-bold {
-  font-family: "Cinzel Decorative", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.cinzel-decorative-black {
-  font-family: "Cinzel Decorative", serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
+/* 메인 폰트 */
 @font-face {
   font-family: 'Freesentation-9Black';
   src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2') format('woff2');
@@ -47,6 +32,7 @@ a {
   font-style: normal;
 }
 
+/* 글자 폰트 */
 @font-face {
   font-family: 'Pretendard-Regular';
   src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
@@ -54,15 +40,9 @@ a {
   font-style: normal;
 }
 
-/* 메인 폰트 */
-@font-face {
-  font-family: 'effra-cc', sans-serif;
-  font-style: normal;
-  font-weight: 900;
-}
 
 
-.wrapper{
+
+.wrapper {
   height: 100%
-
 }

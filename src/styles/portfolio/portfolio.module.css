@@ -1,5 +1,5 @@
 .PortfolioBox {
-  @apply flex flex-col justify-center items-center w-full h-full gap-10;
+  @apply flex flex-col justify-center items-center w-full h-full gap-10 mt-12;
 }
 
 .PortfolioBox>div:nth-child(1) {
@@ -10,5 +10,5 @@
 }
 
 .squareWrap {
-  @apply flex gap-6
+  @apply flex gap-5 justify-center;
 }

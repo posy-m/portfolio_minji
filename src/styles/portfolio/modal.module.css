@@ -25,6 +25,7 @@
 
 .modalContent>h2 {
   @apply pl-10;
+  font-family: 'Pretendard-Regular';
 }
 
 .modalBox {
@@ -69,9 +70,10 @@
 
 
 .modalIcon>a>img {
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
   transition: all 0.25s ease-out;
+  padding-left: 2px;
 }
 
 .modalIcon>a>img:hover {
@@ -85,7 +87,7 @@
 
 /* 오른쪽 BOX */
 .introWrap {
-  @apply flex flex-col gap-2 pt-4
+  @apply flex flex-col gap-2 pt-4;
 }
 .introWrap > p {
   margin: 0;

@@ -6,7 +6,11 @@
   @apply flex gap-3;
   transition: all 0.5s ease;
   transform-origin: left;
+  font-family: 'Pretendard-Regular'
+
 }
+
+.stackBox>span {}
 
 .stackBox:hover {
   transform: scale(1.1);
@@ -20,7 +24,7 @@
 .stackBox>span:nth-child(2) {
   @apply flex items-center pl-4;
   color: rgb(58, 58, 58);
-  text-shadow: 3px 4px 5px #aa99c9;
+  /* text-shadow: 3px 4px 5px #aa99c9; */
 }
 
 .stackBox>span {

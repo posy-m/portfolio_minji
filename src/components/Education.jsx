@@ -19,7 +19,9 @@ const Education = () => {
                 <li>HTML/CSS 기초 웹 페이지 작성</li>
                 <li>웹 프로그래밍 기초</li>
                 <li>데이터베이스 기초와 관리</li>
+                <li>node.js 이해 및 기본 구조</li>
                 <li>Nest.js 기반 BackEnd 프로그래밍</li>
+                <li>React 컴포넌트 개념,개발과 상태관리 및 이해 </li>
                 <li>Next.js 기반 FrontEnd 프로그래밍</li>
               </ul>
             </div>

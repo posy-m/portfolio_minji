@@ -1,5 +1,5 @@
 .educationBox {
-  @apply  gap-10 pl-12 pb-12;
+  @apply gap-10 pl-12 pb-12 mt-20;
 }
 
 .educationBox>div:nth-child(1) {
@@ -10,13 +10,14 @@
 }
 
 .education>div:nth-child(1) {
-  @apply text-3xl ;
+  @apply text-3xl;
 }
 
 .educationWrap {
-  padding-left: 4%
+  @apply mt-9;
+  padding-left: 4%;
   /* @apply p-6 grid;
-  border-radius: 15px;
+  border-radius: 15px; 
   grid-template-columns: 150px 2fr; */
   /* width: 900px;
   box-shadow:
@@ -26,6 +27,7 @@
   0 8px 16px rgba(0, 0, 0, 0.07),
   0 16px 32px rgba(0, 0, 0, 0.07),
   0 32px 64px rgba(0, 0, 0, 0.07); */
+  font-family: 'Pretendard-Regular';
 }
 
 .educationContent {
@@ -34,8 +36,8 @@
 
 .educationContent>span:nth-child(1) {
   /* @apply text-2xl:; */
-  font-weight: 800;
-  font-size: large;
+  font-weight: 700;
+  font-size: x-large;
 }
 
 .educationWrap ul {
