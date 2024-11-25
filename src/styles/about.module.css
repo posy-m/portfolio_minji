@@ -1,5 +1,10 @@
-.aboutWrap{
+.aboutWrap {
   @apply flex flex-col gap-7
+}
+
+.aboutBox {
+  text-align: center;
+
 }
 
 .aboutBox>div:nth-child(1) {
@@ -7,19 +12,31 @@
   /* color: #7661BE; */
   color: #7761be59;
   font-family: 'Freesentation-9Black';
-  /* font-family: 'effra-cc', sans-serif; */
 }
 
-.aboutBox {
-  font-size: 2rem;
+.aboutBox>div:nth-child(2) {
+  font-size: 1.8rem;
   font-family: "Do Hyeon", sans-serif;
   /* font-family: 'Pretendard-Regular';
   font-weight: 900; */
   color: transparent;
-  background: linear-gradient(to right, #aa99c9, #554e8c);
+  background: linear-gradient(to right, #7761be59, #464174);
   -webkit-background-clip: text;
   background-clip: text;
-  text-align: center;
+
+  /* font-size: 1.5rem; */
+  opacity: 0;
+  animation: fadeIn 2s ease-in forwards;
   /* padding: 16px; */
   /* padding-top: 50px; */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }

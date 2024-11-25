@@ -18,6 +18,7 @@
 }
 
 .roundedBox span:last-of-type {
+  @apply text-sm;
   color: gray;
 }
 
