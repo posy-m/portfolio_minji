@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio_minji.github.io/static/css/main.afe18691.css",
+    "main.css": "/portfolio_minji.github.io/static/css/main.2abc0874.css",
     "main.js": "/portfolio_minji.github.io/static/js/main.679e056c.js",
     "static/media/unmountin.gif": "/portfolio_minji.github.io/static/media/unmountin.f36bcaa937d44be939d7.gif",
     "static/media/donut.gif": "/portfolio_minji.github.io/static/media/donut.5d67c2d73ee460a3cb0c.gif",
@@ -19,11 +19,11 @@
     "static/media/message.png": "/portfolio_minji.github.io/static/media/message.f38bbae276502f3c8122.png",
     "static/media/notion.png": "/portfolio_minji.github.io/static/media/notion.a962bf1b160f92390322.png",
     "index.html": "/portfolio_minji.github.io/index.html",
-    "main.afe18691.css.map": "/portfolio_minji.github.io/static/css/main.afe18691.css.map",
+    "main.2abc0874.css.map": "/portfolio_minji.github.io/static/css/main.2abc0874.css.map",
     "main.679e056c.js.map": "/portfolio_minji.github.io/static/js/main.679e056c.js.map"
   },
   "entrypoints": [
-    "static/css/main.afe18691.css",
+    "static/css/main.2abc0874.css",
     "static/js/main.679e056c.js"
   ]
 }
