@@ -38,7 +38,7 @@
 }
 
 .educationContent {
-  @apply flex flex-col gap-2;
+  @apply flex flex-col gap-3;
   color: rgb(34, 34, 34);
 }
 
