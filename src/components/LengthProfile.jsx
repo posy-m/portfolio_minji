@@ -18,10 +18,10 @@ const LengthProfile = () => {
             <span>introduction</span>
             <span>Frontend Developer</span>
           </div>
-          <div className={styles.info}>
+          {/* <div className={styles.info}>
             <span>phoneNumber</span>
             <span>010.3928.0113</span>
-          </div>
+          </div> */}
           <div className={styles.info}>
             <span>Email</span>
             <span>minji.posy@gmail.com</span>

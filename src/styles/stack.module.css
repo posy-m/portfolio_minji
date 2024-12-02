@@ -2,25 +2,67 @@
 
 .stackBox {
   /* @apply flex mt-16 flex-col justify-center items-center; */
-  @apply flex flex-col justify-center items-center mt-12;
+  @apply flex flex-col justify-center items-center mt-12 ;
 }
 
 
 
 .stackBox>div:nth-child(1) {
   @apply text-6xl;
-  /* color: #7661BE; */
-  color: #7761be59;
+  color: #7661BE;
+  /* color: #7761be59; */
   font-family: 'Freesentation-9Black';
 }
 
-.stackWrap {
-  @apply flex flex-col w-full
-}
+
 
 .stackLayout {
-  @apply flex w-full pl-24
+  @apply flex pt-10  p-52;
 }
+
+.stackContent{
+  @apply pl-24 flex flex-col gap-5;
+}
+
+.stackItem{
+  @apply flex flex-col;
+}
+
+.stackNo{
+  @apply rounded-md;
+  /* width: 90%; */
+  /* background-color: white; */
+  box-shadow:
+  0 1px 2px rgba(0, 0, 0, 0.07),
+  0 2px 4px rgba(0, 0, 0, 0.07),
+  0 4px 8px rgba(0, 0, 0, 0.07),
+  0 8px 16px rgba(0, 0, 0, 0.07),
+  0 16px 32px rgba(0, 0, 0, 0.07),
+  0 32px 64px rgba(0, 0, 0, 0.07); 
+}
+
+.stackNo ul li {
+  @apply text-sm;
+}
+
+.stackNo >img{
+  width: 15%;
+
+}
+
+.line{
+  line-height: 1px;
+  border: 1px solid gray;
+}
+.stackItem >span:nth-child(1){
+  @apply text-2xl;
+  color: #7661BE;
+}
+
+
+
+
+
 
 .stackStlye {
   @apply gap-3 flex pt-3 justify-center;
@@ -28,9 +70,10 @@
   grid-template-columns: repeat(5, 1fr); */
 }
 
-
 .stackStlye>span {
   @apply w-28 h-10 flex justify-center items-center rounded-full font-bold;
   background-color: gray;
   color: white;
 }
+
+
